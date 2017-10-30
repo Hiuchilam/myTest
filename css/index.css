@@ -1,0 +1,307 @@
+/* 导入 字体文件 */
+@font-face {
+  font-family: 'wjsfont';
+  src: url('../font/MiFie-Web-Font.eot');
+  src: url('../font/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), url('../font/MiFie-Web-Font.woff') format('woff'), url('font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.svg') format('svg');
+}
+/* 定义 使用的class */
+.wjsfont {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjsfont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.wjsfont-logo::before {
+  content: '\e920';
+}
+.wjsfont-name::before {
+  content: '\e921';
+}
+.wjsfont-e903::before {
+  content: '\e903';
+}
+.wjsfont-e901::before {
+  content: '\e901';
+}
+.wjsfont-e904::before {
+  content: '\e904';
+}
+.wjsfont-e905::before {
+  content: '\e905';
+}
+.wjsfont-e902::before {
+  content: '\e902';
+}
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before {
+  content: '\e915';
+}
+.wjsfont-new01::before {
+  content: "\e90e";
+}
+.wjsfont-new02::before {
+  content: "\e90f";
+}
+.wjsfont-new03::before {
+  content: "\e910";
+}
+.wjsfont-new04::before {
+  content: "\e911";
+}
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before {
+  content: "\e946";
+}
+.wjsfont-partner02::before {
+  content: "\e92f";
+}
+.wjsfont-partner03::before {
+  content: "\e92e";
+}
+.wjsfont-partner04::before {
+  content: "\e92a";
+}
+.wjsfont-partner05::before {
+  content: "\e929";
+}
+.wjsfont-partner06::before {
+  content: "\e931";
+}
+.wjsfont-partner07::before {
+  content: "\e92c";
+}
+.wjsfont-partner08::before {
+  content: "\e92b";
+}
+.wjsfont-partner09::before {
+  content: "\e92d";
+}
+a {
+  color: inherit;
+}
+.top_tool .row > div {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  height: 40px;
+  line-height: 35px;
+  padding: 3px 0 2px;
+}
+.top_tool .row > div a {
+  color: #808080;
+}
+.top_tool .row > div .tt_code {
+  position: relative;
+}
+.top_tool .row > div .tt_code img {
+  position: absolute;
+  top: 20px;
+  left: -3px;
+  display: none;
+}
+.top_tool .row > div .tt_code:hover > img {
+  display: block;
+}
+.top_tool .row > div .btn-danger {
+  color: #fff;
+}
+.wjs_nav .container a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.wjs_nav .container .navbar-brand {
+  font-size: 70px;
+}
+.wjs_nav .container .navbar-brand .wjsfont-logo {
+  color: red;
+}
+.wjs_nav .container .navbar-brand .wjsfont {
+  line-height: 20px;
+  top: 8px;
+}
+.wjs_nav .container .navbar-collapse a:hover,
+.wjs_nav .container .navbar-collapse a:focus {
+  border-bottom: 1px solid red;
+}
+.wjs_nav .navbar {
+  margin-bottom: 0;
+}
+.wjs_carousel .carousel-inner img {
+  width: 100%;
+}
+.wjs_exchange {
+  padding: 70px 0;
+}
+.wjs_exchange .media {
+  color: #808080;
+  margin-bottom: 10px;
+}
+.wjs_exchange .media .media-left {
+  font-size: 40px;
+}
+.wjs_exchange .media .media-body span:first-child {
+  font-size: 24px;
+}
+.wjs_waitting {
+  height: 80px;
+  padding: 30px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.wjs_waitting .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.wjs_waitting .pull-right a {
+  color: #000;
+}
+.wjs_buy .tab-content {
+  padding-top: 15px;
+}
+.wjs_buy .tab-content .cart_default {
+  display: block;
+  background-color: #f7f7f7;
+  color: #969696;
+  width: 100%;
+  height: 180px;
+  position: relative;
+  padding-right: 80px;
+  box-shadow: 0 0 10px 0px #000;
+  margin-bottom: 15px;
+}
+.wjs_buy .tab-content .cart_default .buy_left_content {
+  width: 100%;
+  padding: 5px 3px;
+}
+.wjs_buy .tab-content .cart_default .buy_left_content h4 {
+  padding: 10px;
+}
+.wjs_buy .tab-content .cart_default .buy_left_content .pull-left {
+  width: 50%;
+  text-align: left;
+}
+.wjs_buy .tab-content .cart_default .buy_left_content .pull-right {
+  width: 50%;
+  text-align: right;
+}
+.wjs_buy .tab-content .cart_default .buy_right_rate {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 180px;
+  padding-top: 60px;
+  width: 80px;
+  border-left: 1px dashed #000;
+}
+.wjs_buy .tab-content .cart_default .buy_right_rate::before {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 2px 0px #000;
+}
+.wjs_buy .tab-content .cart_default .buy_right_rate::after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, 50%);
+  box-shadow: 0 -2px 2px 0px #000;
+}
+.wjs_buy .tab-content .cart_exp {
+  background-color: red;
+  color: #fff;
+  position: relative;
+}
+.wjs_buy .tab-content .cart_exp .wjsfont-e915 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 42px;
+}
+.wjs_buy .tab-content .cart_progress span:first-child {
+  color: green;
+  border: 1px solid green;
+}
+.wjs_buy .tab-content .cart_progress span:nth-of-type(2) {
+  color: red;
+  border: 1px solid red;
+}
+.wjs_news .news_title {
+  font-size: 26px;
+  border-bottom: 1px solid #000;
+  padding-left: 0;
+}
+.wjs_news .news_title:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: #fff;
+}
+.wjs_news .news_tab {
+  position: relative;
+}
+.wjs_news .news_tab .news_line {
+  position: absolute;
+  width: 0px;
+  left: 90px;
+  height: 380px;
+  border: 1px dashed #000;
+}
+.wjs_news .news_tab ul {
+  list-style: none;
+  position: relative;
+}
+.wjs_news .news_tab ul a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #cccccc;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  text-align: center;
+}
+.wjs_news .news_tab ul a:hover,
+.wjs_news .news_tab ul a:focus {
+  background-color: red;
+}
+.wjs_news .news_tab ul li {
+  margin-bottom: 55px;
+}
+footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+footer h3 {
+  font-size: 26px;
+}
+footer .container span {
+  display: inline-block;
+  color: #808080;
+  font-size: 80px;
+  margin-left: 30px;
+}

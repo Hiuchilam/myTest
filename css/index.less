@@ -1,0 +1,275 @@
+@import url('./wjsfont.less');
+a {
+    color: inherit;
+}
+
+// 头部工具栏
+.top_tool {
+    .row>div {
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        text-align: center;
+        height: 40px;
+        line-height: 35px;
+        padding: 3px 0 2px;
+        a {
+            color: #808080;
+        }
+        .tt_code {
+            position: relative;
+            img {
+                position: absolute;
+                top: 20px;
+                left: -3px;
+                display: none;
+            }
+            &:hover>img {
+                display: block;
+            }
+        }
+        .btn-danger {
+            color: #fff;
+        }
+    }
+}
+
+// 头部导航
+.wjs_nav {
+    .container {
+        a {
+            height: 80px;
+            line-height: 80px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .navbar-brand {
+            font-size: 70px;
+            .wjsfont-logo {
+                color: red;
+            }
+            .wjsfont {
+                line-height: 20px;
+                top: 8px;
+            }
+        }
+        .navbar-collapse {
+            a {
+                &:hover,
+                &:focus {
+                    border-bottom: 1px solid red;
+                }
+            }
+        }
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+}
+
+// 轮播图
+.wjs_carousel {
+    .carousel-inner {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// 支付交易
+.wjs_exchange {
+    padding: 70px 0;
+    .media {
+        color: #808080;
+        margin-bottom: 10px;
+        .media-left {
+            font-size: 40px;
+        }
+        .media-body {
+            span {
+                &:first-child {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+// 排队
+.wjs_waitting {
+    height: 80px;
+    padding: 30px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    .pull-left {
+        a {
+            color: red;
+            border-bottom: 1px dashed red;
+        }
+    }
+    .pull-right {
+        a {
+            color: #000;
+        }
+    }
+}
+
+// 投资
+.wjs_buy {
+    .tab-content {
+        padding-top: 15px;
+        .cart_default {
+            display: block;
+            background-color: #f7f7f7;
+            color: #969696;
+            width: 100%;
+            height: 180px;
+            position: relative;
+            padding-right: 80px;
+            box-shadow: 0 0 10px 0px #000;
+            margin-bottom: 15px;
+            .buy_left_content {
+                width: 100%;
+                padding: 5px 3px;
+                h4 {
+                    padding: 10px;
+                }
+                .pull-left {
+                    width: 50%;
+                    text-align: left;
+                }
+                .pull-right {
+                    width: 50%;
+                    text-align: right
+                }
+            }
+            .buy_right_rate {
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 180px;
+                padding-top: 60px;
+                width: 80px;
+                border-left: 1px dashed #000;
+                &::before {
+                    content: " ";
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    transform: translate(-50%, -50%);
+                    box-shadow: 0 2px 2px 0px #000;
+                }
+                &::after {
+                    content: " ";
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    transform: translate(-50%, 50%);
+                    box-shadow: 0 -2px 2px 0px #000;
+                }
+            }
+        }
+        .cart_exp {
+            background-color: red;
+            color: #fff;
+            position: relative;
+            .wjsfont-e915 {
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 42px;
+            }
+        }
+        .cart_progress {
+            span {
+                &:first-child {
+                    color: green;
+                    border: 1px solid green;
+                }
+                &:nth-of-type(2) {
+                    color: red;
+                    border: 1px solid red;
+                }
+            }
+        }
+    }
+}
+
+// 新闻
+.wjs_news {
+    .news_title {
+        font-size: 26px;
+        border-bottom: 1px solid #000;
+        padding-left: 0;
+        &:before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateY(50%);
+            background-color: #fff;
+        }
+    }
+    .news_tab {
+        position: relative;
+        .news_line {
+            position: absolute;
+            width: 0px;
+            left: 90px;
+            height: 380px;
+            border: 1px dashed #000;
+        }
+        ul {
+            list-style: none;
+            position: relative;
+            a {
+                display: block;
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                background-color: #cccccc;
+                color: #fff;
+                border-radius: 50%;
+                font-size: 40px;
+                text-align: center;
+                &:hover,
+                &:focus {
+                    background-color: red;
+                }
+            }
+            li {
+                margin-bottom: 55px;
+            }
+        }
+    }
+}
+
+// 底部
+footer {
+    border-top: 1px solid #eee;
+    text-align: center;
+    h3{
+        font-size: 26px;
+    }
+    .container{
+        span{
+            display: inline-block;
+            color: #808080;
+            font-size: 80px;
+            margin-left: 30px;
+        }
+    }
+}
