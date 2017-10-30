@@ -1,14 +1,15 @@
-cd (Change Directory) ÇĞ»»Ä¿Â¼£¬Èç cd /etc
-ls (List) ²é¿´µ±Ç°Ä¿Â¼ÏÂÄÚÈİ£¬Èç ls -al
-mkdir (Make Directory) ´´½¨Ä¿Â¼£¬Èç mkdir blog
-touch ´´½¨ÎÄ¼ş£¬Èç touch index.html
+cd (Change Directory) åˆ‡æ¢ç›®å½•ï¼Œå¦‚ cd /etc
+ls (List) æŸ¥çœ‹å½“å‰ç›®å½•ä¸‹å†…å®¹ï¼Œå¦‚ ls -al
+mkdir (Make Directory) åˆ›å»ºç›®å½•ï¼Œå¦‚ mkdir blog
+touch åˆ›å»ºæ–‡ä»¶ï¼Œå¦‚ touch index.html
 fuck you sb
-at ²é¿´ÎÄ¼şÈ«²¿ÄÚÈİ£¬Èç cat index.html
-rm (remove) É¾³ıÎÄ¼ş£¬Èç rm index.html¡¢rm -rf  blog
-rmdir (Remove Directory) É¾³ıÎÄ¼ş¼Ğ£¬Ö»ÄÜÉ¾³ı¿ÕÎÄ¼ş¼Ğ£¬²»³£ÓÃ
-mv :move) ÒÆ¶¯ÎÄ¼ş»òÖØÃüÃû£¬Èç mv index.html ./demo/index.html
-cp (copy) ¸´ÖÆÎÄ¼ş£¬cp index.html ./demo/index.html
-head ²é¿´ÎÄ¼şÇ°¼¸ĞĞ£¬Èç head -5 index.html 
-history ²é¿´²Ù×÷ÀúÊ·
+at æŸ¥çœ‹æ–‡ä»¶å…¨éƒ¨å†…å®¹ï¼Œå¦‚ cat index.html
+rm (remove) åˆ é™¤æ–‡ä»¶ï¼Œå¦‚ rm index.htmlã€rm -rf  blog
+rmdir (Remove Directory) åˆ é™¤æ–‡ä»¶å¤¹ï¼Œåªèƒ½åˆ é™¤ç©ºæ–‡ä»¶å¤¹ï¼Œä¸å¸¸ç”¨
+mv :move) ç§»åŠ¨æ–‡ä»¶æˆ–é‡å‘½åï¼Œå¦‚ mv index.html ./demo/index.html
+cp (copy) å¤åˆ¶æ–‡ä»¶ï¼Œcp index.html ./demo/index.html
+head æŸ¥çœ‹æ–‡ä»¶å‰å‡ è¡Œï¼Œå¦‚ head -5 index.html 
+history æŸ¥çœ‹æ“ä½œå†å²
 
 I wanna more money money money
+stupid cat stupid fucking fool
